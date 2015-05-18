@@ -1,0 +1,20 @@
+Description,Middle Code
+Active Labor Market,_lm_ac
+All Labor Market,_lm_alllm
+All Private Transfers,_rem
+All Social Assistance,_sa_allsa
+All Social Insurance,_si_allsi
+Cash Transfer,_sa_ct
+Conditional Cash Transfers,_sa_cct
+Contributory Pensions,_si_oa
+Domestic Private Transfers,_pr_dp
+In-Kind,_sa_ik
+International Private Transfers,_pr_ip
+Other Social Assistance,_sa_osa
+Other Social Insurance,_si_ss
+Passive Labor Market,_lm_ub
+Public Works,_sa_pw
+School Feeding,_sa_sf
+Social Pensions,_sa_sp
+Subsidies,_sa_su
+All Social Protection and Labor,_allsp

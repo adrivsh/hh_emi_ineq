@@ -1,0 +1,5 @@
+Description,Middle Code
+All Labor Market,blue
+All Private Transfers,red
+All Social Assistance,green
+All Social Insurance,orange
