@@ -3,7 +3,7 @@ import numpy as np
 
 
 def get_wb_df(wb_name,colname):
-    """gets a dataframe from wb data with all years and all countries, and a lot of nans"""    
+    """gets a dataframe from wb data with all years and all countries, and a lotof nans"""    
     #return all values
     wb_raw  =(wb.download(indicator=wb_name,start=2000,end=2014,country="all"))
     #sensible name for the column
@@ -31,7 +31,7 @@ def mrv(data):
     hop=data.reset_index().dropna().groupby("country").apply(mrv_gp)
     #reshapes hop as simple dataframe indexed by country
     hop= hop.reset_index().drop("level_1",axis=1).set_index("country")
-    return hop.squeeze()
+    return hop
     
 def avg_gp(x):
     """this function gets the average over the last 10 years of a wb-pulled dataframe grouped by country"""
