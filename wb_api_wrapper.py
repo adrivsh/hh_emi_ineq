@@ -2,7 +2,7 @@ from pandas.io import wb
 import numpy as np
 from datetime import date
 
-start_year = 2000
+start_year = 1950
 today_year = date.today().year
 
 #use str.contains("a|b") next time)
